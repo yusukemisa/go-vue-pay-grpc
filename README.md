@@ -11,6 +11,25 @@ Write your project features
 $ go get github.com/yusukemisa/go-vue-pay-grpc
 ```
 
+### 動作確認
+DB準備
+```
+$ make itemdb_mysql
+```
+起動
+```
+$ make start
+```
+停止
+```
+$ make stop
+```
+テスト実行
+```
+$ make test
+```
+
+
 ### protocを公式からダウンロードして/usr/local/bin配下にコマンドをおいとく
 
 公式：https://github.com/google/protobuf/releases
