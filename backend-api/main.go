@@ -1,9 +1,11 @@
 package main
 
 import (
-	"fmt"
+	"os"
+
+	"github.com/yusukemisa/go-vue-pay-grpc/infrastructure"
 )
 
 func main() {
-	fmt.Println("Hello World!")
+	infrastructure.Router.Run(os.Getenv("API_SERVER_PORT"))
 }

@@ -1,5 +1,10 @@
-syntax = "proto3";
 
+syntax = "proto3";
+/*
+ファイルの最初の行は、proto3構文を使用していることを示します。
+これをしないと、プロトコルバッファコンパイラはproto2を使用しているとみなします。
+1行目は空白またはコメント行は禁止です。
+*/
 package paymentservice;
 
 service PayManager {

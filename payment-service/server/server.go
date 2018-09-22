@@ -7,7 +7,8 @@ import (
 	"os"
 
 	payjp "github.com/payjp/payjp-go/v1"
-	gpay "github.com/yusukemisa/go-vue-pay-grpc/payment-service/proto"
+	//protocで生成したパッケージ
+	gpay "github.com/yusukemisa/go-vue-pay-grpc/payment-service/proto" 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )
